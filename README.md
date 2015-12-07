@@ -1,4 +1,4 @@
-# biometrics
+# Biometrics
 # Repo for buliding a biometric based system
 # For starting to work.
 # Do a Fork of repo 1.x branch.
