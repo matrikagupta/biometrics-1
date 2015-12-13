@@ -70,7 +70,7 @@ def GetProcessedImage(userName, count):
                     if not count >= 2 or cv2.waitKey(1) & 0xFF != ord('q'):
                         if not os.path.exists("../test_images/" + userName):
                             os.makedirs("../test_images/" + userName)
-                            cv2.imwrite("../test_images/"+userName+"/"+str(count)+".pgm", resized_image)
+                        cv2.imwrite("../test_images/"+userName+"/"+str(count)+".pgm", resized_image)
                     # Exit.        
                     video_capture.release()
                     cv2.destroyAllWindows()
