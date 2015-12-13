@@ -1,3 +1,4 @@
+# Please use 1.x Branch, Leave master branch empty as it is.
 # biometrics
 # Repo for buliding a biometric based system
 # For starting to work.
